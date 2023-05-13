@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background: #011627;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+h1{
+    margin:0px;
+    font-size: 60px;
+    color: whitesmoke;
+}
+.password{ 
+    font-size: 50px;
+    font-weight: bold;
+    color: #52b788;
+}
+.container{
+    width: 100%;
+  max-width: 500px;
+    padding: 20px;
+    /* border: 1px solid black; */
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+.container2{
+   margin-top: 50px;
+     width: 100%;
+    max-width: 500%;
+    border-top: 1px solid #003049;
+    
+   
+    
+    /* border: 1px solid black; */
+     
+    
+}
+.middle{
+    font-size: 1.25rem;
+   font-weight: normal;
+   margin: 0.313em;
+   color: silver;
+  
+}
+
+#genrate-el{
+    padding: 0.5rem 1.25rem;
+    border-radius: 0.313rem;
+    border: none;
+    background: #52b788;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 3.125em;
+    
+}
+
+#first-El{
+    display: inline-block;
+    margin-top:45px;
+    width: 30%;
+    gap:10px;
+    height: 35px;
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background: #212d40;
+    color: #52b788;
+    font-family: 'Rubik', sans-serif; 
+}
+
+#second-El{
+        margin-top:50px;
+      display: inline-block;
+   width: 30%;
+    gap:10px;
+    height: 35px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    background: #212d40;
+    color: #52b788;
+    font-family: 'Rubik', sans-serif; 
+}
+
+@media (max-width: 480px){
+  
+  
+     #genrate-el{
+        display: block;
+        width: 100%;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        width: 98%;
+        text-align: center;
+    }
+    #second-El{
+        margin-top: 8px;
+        display: block;
+        margin-left: 0;
+        width:100%
+    }
+    #first-El{
+        width:100%
+    }
+    .container{
+        text-align: center;
+    }
+   
